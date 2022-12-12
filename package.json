@@ -2,7 +2,7 @@
   "name": "flexyoga",
   "version": "1.0.0",
   "description": "Yoga : way of life",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "server": "nodemon server.js",
     "client": "cd client && npm start",
