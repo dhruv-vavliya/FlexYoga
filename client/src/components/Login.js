@@ -31,7 +31,7 @@ export default function Login() {
         }
 
         try{
-            let response = await fetch(`/user/login`, request);
+            let response = await fetch(`${HOST}/user/login`, request);
 
             if (response.status !== 200) {
                 response = await response.json();

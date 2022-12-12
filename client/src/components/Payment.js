@@ -64,7 +64,7 @@ export default function Payment() {
             })
         }
 
-        let response = await fetch(`/payment`, request);
+        let response = await fetch(`${HOST}/payment`, request);
         if (response.status !== 200) {
             response = await response.json();
             show('info', response.msg);
