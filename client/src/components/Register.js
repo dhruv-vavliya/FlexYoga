@@ -48,7 +48,7 @@ export default function Register() {
             }
 
             try{
-                let response = await fetch(`${HOST}/user/register`, request);
+                let response = await fetch(`/user/register`, request);
                 if (response.status !== 200) {
                     response = await response.json();
                     show('info', response.msg );
