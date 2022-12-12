@@ -1,0 +1,12 @@
+
+#userBox{
+    font-size: large;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.badge{
+    margin: 2px;
+    background-color:aliceblue !important;
+}
+

@@ -1,0 +1,28 @@
+{
+  "name": "flexyoga",
+  "version": "1.0.0",
+  "description": "Yoga : way of life",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "yoga",
+    "se",
+    "hi",
+    "hoga"
+  ],
+  "author": "Dhruv Vavliya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "react-router-dom": "^6.4.5"
+  }
+}
