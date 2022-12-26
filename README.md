@@ -1,5 +1,5 @@
-# OnlineLogsReader
-Read online logs from file which is present at server.<br>
+# Flexyoga
+A Way of Life.<br>
 <img src="./app.png"><br>
 <img src="./ERDImage.png"><br>
 
